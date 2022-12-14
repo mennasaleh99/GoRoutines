@@ -21,11 +21,16 @@ func f(from string) {
 }
 
 func main() {
+	// Concurrency is the ability to perform multiple operations at the same time
+	// It helps in techniques like coordinating execution of processes, memory allocation and execution scheduling for maximizing throughput.
+	// There is a difference between sequential and concurrency 
+	// Sequential run code in sequence or queue 
 	// sequential
 	// fmt.Println("main () strat")
 	// normal()
 	// fmt.Println("main () end")
 	// __________________________________________________________________________
+	// Concurrency run all things together
 	// concurrency
 	// it will not print the body of method because
 	// we need to apply delay to stop the main go routine which make our go routine stop working
